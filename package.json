@@ -1,0 +1,49 @@
+{
+  "name": "uploadable",
+  "version": "0.1.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "start": "babel-node bin/cli.js",
+    "lint": "eslint src/ bin/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicporteous/uploadable.git"
+  },
+  "author": "",
+  "license": "SEE LICENCE IN LICENCE.md",
+  "bugs": {
+    "url": "https://github.com/dominicporteous/uploadable/issues"
+  },
+  "homepage": "https://github.com/dominicporteous/uploadable#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.34.0",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/register": "^7.11.5",
+    "@babel/runtime": "^7.13.10",
+    "aws-sdk": "^2.999.0",
+    "dotenv": "^10.0.0",
+    "file-type": "^16.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa-compose": "^4.1.0",
+    "modeller": "https://github.com/oghdev/modeller/archive/refs/tags/0.3.1.tar.gz",
+    "serve": "https://github.com/oghdev/serve/archive/refs/tags/0.8.6.tar.gz",
+    "uuid": "^8.3.2",
+    "video-extensions": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-require-path-exists": "^1.1.9",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
